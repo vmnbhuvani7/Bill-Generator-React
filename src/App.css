@@ -1,0 +1,59 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.App {
+    text-align: center;
+  }
+.card {
+  width: 75%;
+  align-self: center;
+}
+.cardhead {
+  background-color: #0d83dd;
+  display: flex;
+  height: 110px;
+  padding: 28px;
+  color: white;
+}
+.address {
+  margin-left: 750px;
+  text-align: initial;
+}
+.total {
+  margin-left: 915px;
+}
+.minus {
+  margin-right: 1150px;
+}
+.deleteName {
+  margin-left: 16px;
+}
+.addmore {
+  margin-left: 360px;
+}
+
+.total > b,
+th {
+  color: #0d83dd;
+}
+
+.selectLang {
+  margin-left: 317px;
+}
+.option {
+  background-color: #808080b5;
+  color: white;
+}
+@media print {
+  .cardhead,
+  .minus {
+    background-color: #039dfc !important;
+    -webkit-print-color-adjust: exact;
+  }
+}
+
+.errorColor {
+  color: red;
+}
